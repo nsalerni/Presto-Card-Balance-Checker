@@ -44,7 +44,7 @@ def prestoCardBalance():
 	# Fills in the username (appropriate textbox names were obtained from the HTML source of the login page).
 	br['ctl00$SPWebPartManager1$AccountLoginWebpartControl$ctl00$webpartRegisteredUserLogin$ctl00$textboxRegisteredLogin'] = raw_input('Username: ')
     
-    # Fills in the password (appropriate textbox names were obtained from the HTML source of the login page).
+        # Fills in the password (appropriate textbox names were obtained from the HTML source of the login page).
 	br['ctl00$SPWebPartManager1$AccountLoginWebpartControl$ctl00$webpartRegisteredUserLogin$ctl00$textboxPassword'] = getpass.getpass()
     
 	# Submits the login request using the appropriate 'login' button (appropriate button name were obtained from the HTML source of the login page).
